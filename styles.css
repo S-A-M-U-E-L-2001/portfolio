@@ -25,41 +25,9 @@ body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.5rem;
     font-weight: 900;
-    color: rgba(0, 0, 0, 0.3);
-    background: #000000 -webkit-gradient(
-        linear,
-        left top,
-        right top,
-        from(#222),
-        to(#222),
-        color-stop(0.5, #fff)
-      ) 0 0 no-repeat;
-    background-image: -webkit-linear-gradient(
-      -40deg,
-      transparent 0%,
-      transparent 40%,
-      #fff 50%,
-      transparent 60%,
-      transparent 100%
-    );
-    -webkit-background-clip: text;
-    -webkit-background-size: 50px;
-    -webkit-animation: zezzz;
-    -webkit-animation-duration: 5s;
-    -webkit-animation-iteration-count: infinite;
+    color: rgb(0, 0, 0); 
   }
-  @-webkit-keyframes zezzz {
-    0%,
-    10% {
-      background-position: -200px;
-    }
-    20% {
-      background-position: top left;
-    }
-    100% {
-      background-position: 200px;
-    }
-  }
+ 
   .nav-item {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font: 1em;
@@ -308,7 +276,7 @@ button:hover .star-6 {
 .image {
   width: 300px;
   height: 400px;
-  background-image: url(/img/1727972798242-removebg-preview\ \(1\).png);
+  background-image: url(../img/1727972798242-removebg-preview\ \(1\).png);
   background-repeat: no-repeat;
   border-radius: 50%;
   box-shadow: 0px 0px 16px rgb(0, 0, 0);
@@ -468,7 +436,7 @@ button:hover .star-6 {
 
 
 .card_box_html {
-  background-image: url(/img/skills/html.png) ;
+  background-image: url(../img/skills/html.png) ;
   background-position: center;
   background-size: 110px;
   background-color: #00a2ff2c;
@@ -526,7 +494,7 @@ button:hover .star-6 {
 }
 
 .card_box_css {
-  background-image: url(/img/skills/css.png) ;
+  background-image: url(../img/skills/css.png) ;
   background-position: center;
   background-size: 110px;
   background-color: #00a2ff2c;
@@ -585,7 +553,7 @@ button:hover .star-6 {
 
 
 .card_box_js {
-  background-image: url(/img/skills/js.png) ;
+  background-image: url(../img/skills/js.png) ;
   background-position: center;
   background-size: 110px;
   background-color: #00a2ff2c;
@@ -643,7 +611,7 @@ button:hover .star-6 {
 }
 
 .card_box_jq {
-  background-image: url(/img/skills/jquery_original_logo_icon_146446.png) ;
+  background-image: url(../img/skills/jquery_original_logo_icon_146446.png) ;
   background-position: center;
   background-size: 100px;
   background-color: #00a2ff2c;
@@ -701,7 +669,7 @@ button:hover .star-6 {
 }
 
 .card_box_bt {
-  background-image: url(/img/skills/bootstrap.png) ;
+  background-image: url(../img/skills/bootstrap.png) ;
   background-position: center;
   background-size: 130px;
   background-color: #00a2ff2c;
@@ -759,7 +727,7 @@ button:hover .star-6 {
 }
 
 .card_box_uiv {
-  background-image: url(/img/skills/uiverse.jpg) ;
+  background-image: url(../img/skills/uiverse.jpg) ;
   background-position: center;
   background-size: 90px;
   background-color: #00a2ff2c;
@@ -818,7 +786,7 @@ button:hover .star-6 {
 
 
 .card_box_fg {
-  background-image: url(/img/skills/figma.png) ;
+  background-image: url(../img/skills/figma.png) ;
   background-position: center;
   background-size: 160px;
   background-color: #00a2ff2c;
@@ -877,7 +845,7 @@ button:hover .star-6 {
 
 
 .card_box_canva {
-  background-image: url(/img/skills/canva.png) ;
+  background-image: url(../img/skills/canva.png) ;
   background-position: center;
   background-size: 95px;
   background-color: #00a2ff2c;
@@ -1049,7 +1017,7 @@ button:hover .star-6 {
   background-size: cover;
   background-position: center;
   z-index: -1;
-  background-image: url(/img/contact.avif);
+  background-image: url(../img/contact.avif);
   filter: blur(3px);
 }
 
